@@ -26,49 +26,10 @@ easy: 0 | medium: 0 | hard: 0
 ## what's in here
 
 ```
-leetcode-journey/
-├── README.md                          # Main repo readme (chill vibes)
-├── .gitignore                        # Git ignore file
-├── solutions/                        # All solution files
-│   ├── easy/                         # Easy problems
-│   │   ├── 001-two-sum/              # Individual problem folder
-│   │   │   ├── README.md             # Problem notes & approach
-│   │   │   ├── solution.js           # Main JavaScript solution
-│   │   │   ├── solution.ts           # TypeScript version (if wanted)
-│   │   │   ├── solution.py           # Python version (if exploring)
-│   │   │   └── solution.java         # Java version (if needed)
-│   │   └── 020-valid-parentheses/
-│   │       ├── README.md
-│   │       └── solution.js
-│   ├── medium/                       # Medium problems
-│   │   ├── 003-longest-substring/
-│   │   │   ├── README.md
-│   │   │   └── solution.js
-│   │   └── ...
-│   └── hard/                         # Hard problems
-│       ├── 004-median-two-arrays/
-│       │   ├── README.md
-│       │   └── solution.js
-│       └── ...
-├── topics/                           # Organized by topic/pattern
-│   ├── arrays/
-│   │   └── problems.md               # List of array problems solved
-│   ├── strings/
-│   │   └── problems.md
-│   ├── trees/
-│   │   └── problems.md
-│   ├── graphs/
-│   │   └── problems.md
-│   └── dynamic-programming/
-│       └── problems.md
-├── notes/                            # Random thoughts and learnings
-│   ├── algorithms.md                 # Algorithm notes
-│   ├── patterns.md                   # Common patterns i've noticed
-│   └── interview-prep.md             # Interview stuff
-└── resources/                        # Helpful stuff
-    ├── books.md                      # Good books
-    ├── courses.md                    # Online courses
-    └── tools.md                      # Useful tools
+📁 solutions/          # All problems organized by difficulty
+📁 topics/             # Problems categorized by data structures & algorithms
+📁 notes/              # Learning insights and key concepts
+📁 resources/          # Books, courses, and helpful materials
 ```
 
 ## languages im using
