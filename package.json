@@ -1,0 +1,31 @@
+{
+  "name": "leetcode-journey",
+  "version": "1.0.0",
+  "description": "im just trying to improve, bro. being conscious about this whole thing and pursuing greatness no matter what. this is where i dump all my leetcode progress and probably complain about hard problems lol.",
+  "main": "index.js",
+  "scripts": {
+    "solution": "node run-problem.js",
+    "dev-solution": "nodemon run-problem.js",
+    "js": "npm run dev-solution -- --lang=js",
+    "ts": "npm run dev-solution -- --lang=ts",
+    "py": "npm run dev-solution -- --lang=py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosueIsOffline/leetcode-journey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JosueIsOffline/leetcode-journey/issues"
+  },
+  "homepage": "https://github.com/JosueIsOffline/leetcode-journey#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
