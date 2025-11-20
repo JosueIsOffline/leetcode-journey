@@ -21,7 +21,12 @@ if (!lang) {
   process.exit(1);
 }
 
-const basePaths = ["solutions/easy/", "solutions/medium/", "solutions/hard/"];
+const basePaths = [
+  "solutions/custom/",
+  "solutions/easy/",
+  "solutions/medium/",
+  "solutions/hard/",
+];
 
 let found = false;
 
@@ -50,10 +55,10 @@ for (const base of basePaths) {
         console.error(`Language not supported: ${lang}`);
         break;
     }
-  }
 
-  found = true;
-  break;
+    found = true;
+    break;
+  }
 }
 
 if (!found) {
